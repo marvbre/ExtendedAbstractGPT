@@ -5,7 +5,8 @@ Limitation: If the chapter headlines have inconsistent font sizes or there is ne
 
 Installation:
 - get an API key for OPENAI 
-- pip install the requirements
+- create anaconda env with python=3.8
+- pip install -r requirements
 - pip install pyinstaller
 - cd .../ExtendedAbstractGPT
 -  pyinstaller --onefile --windowed --console .\pdfGPT.py
