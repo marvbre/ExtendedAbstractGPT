@@ -16,7 +16,7 @@ from pdfminer.layout import LAParams
 from pdfminer.converter import PDFPageAggregator
 import numpy as np
 
-openai.organization = "org-T5XPLMtMntKbRLNEMwChuYEj"
+openai.organization = "YOUR_ORG_KEY"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def count_letters(s):
